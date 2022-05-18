@@ -7,3 +7,35 @@
     font-family: 'Poppins', 'Roboto Mono';
 }
 
+.section-nav-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    height: 5rem;
+    background-color: #1B1A17;
+}
+
+.section-nav-topo nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.section-nav-topo {
+    color: white;
+}
+
+.section-nav-topo nav ul a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.foto-principal img {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
