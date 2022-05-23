@@ -1,11 +1,11 @@
 # Projeto - Site Fitness 
 
-Objetivo do Projeto - Praticar os principais conceitos de Html5 e Css3.
+Objetivo do Projeto - Criar um site utilizando todo o conhecimento adquirido em HTML e CSS.
 
-Desafios Propostos:
+#### Desafios Propostos:
 
 - Utilizar Flexbox;
-- Criação de Slider;
-- Efeito Hover nas imagens (efeito zoom);
+- Criar um Slider;
+- Usar efeito hover nas imagens (efeito zoom);
 - Cards;
 - Ícones para redes sociais no footer;
