@@ -28,14 +28,98 @@
     color: white;
 }
 
+.section-nav-topo p {
+    margin-left: 2rem;
+}
+
 .section-nav-topo nav ul a {
     text-decoration: none;
     cursor: pointer;
     color: white;
+    margin-right: 2rem;
+}
+
+.foto-principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
 }
 
 .foto-principal img {
-    width: 100%;
-    height: 100vh;
+    width: 700px;
+    height: 400px;
     background-size: cover;
+    box-shadow: 0 0 20px 0 rgb(202, 202, 202);
+}
+
+.foto-principal .texto-inicio-1 h1 {
+    margin-bottom: 1rem;
+}
+
+.foto-principal .texto-inicio-1 p {
+    line-height: 30px;
+    width: 410px;
+    height: 100px;
+}
+
+.foto-principal .lista-inicio {
+    position: relative;
+    bottom: 1.5rem;
+    left: 1.2em;
+}
+
+.linha {
+    position: relative;
+    left: 22%;
+    width: 750px;
+    height: 1px;
+    background-color: rgb(202, 202, 202);
+    margin-bottom: 1rem;
+}
+
+.texto-inicio-2 {
+    text-align: center;
+}
+
+.texto-inicio-2 h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.texto-inicio-2 p {
+    position: relative;
+    left: 30%;
+    width: 500px;
+    height: 200px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.background-colorido {
+    width: 100%;
+    height: 3rem;
+    background-color: #F0A500;
+}
+
+.titulo-galeria {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.galeria-de-fotos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 120vh;
+}
+
+.galeria-de-fotos img {
+    width: 320px;
+    height: 300px;
+    background-size: cover;
+    margin-left: 4rem;
 }
