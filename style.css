@@ -153,7 +153,7 @@
 
 .section-blog p {
     width: 500px;
-    height: 100vh;
+    height: 85vh;
     line-height: 30px;
     position: relative;
     top: 2em;
@@ -172,10 +172,75 @@
 }
 
 .linha-blog {
-    width: 900px;
+    width: 400px;
     height: 1px;
     background-color: rgb(202, 202, 202);
     position: relative;
-    left: 18%;
-    bottom: 5.5rem;
+    left: 35%;
+    bottom: 3.5rem;
+}
+
+.section-video-youtube {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-color: #1B1A17;
+}
+
+.section-video-youtube h2 {
+    position: relative;
+    bottom: 10px;
+    color: #F0A500;
+}
+
+.section-video-youtube p {
+    width: 400px;
+    height: 150px;
+    line-height: 25px;
+    color: white;
+}
+
+.section-slider {
+    width: 100%;
+    position: relative;
+    margin: 60px;
+    left: 20%;
+}
+
+.section-slider img {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0;
+    animation-name: slide;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.section-slider img:nth-child(2) {
+    animation-delay: 5s;
+}
+.section-slider img:nth-child(3) {
+    animation-delay: 10s;
+}
+.section-slider img:nth-child(4) {
+    animation-delay: 15s;
+}
+
+
+.cards {
+    margin-top: 40rem;
 }
