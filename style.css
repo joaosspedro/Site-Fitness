@@ -7,6 +7,8 @@
     font-family: 'Poppins', 'Roboto Mono';
 }
 
+/*Header - Menu do site*/
+
 .section-nav-topo {
     display: flex;
     justify-content: space-between;
@@ -39,12 +41,15 @@
     margin-right: 2rem;
 }
 
+
+/*Main - Imagem e texto inicial*/
+
 .foto-principal {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
 }
 
 .foto-principal img {
@@ -70,42 +75,20 @@
     left: 1.2em;
 }
 
-.linha {
-    position: relative;
-    left: 22%;
-    width: 750px;
-    height: 1px;
-    background-color: rgb(202, 202, 202);
-    margin-bottom: 1rem;
-}
-
-.texto-inicio-2 {
-    text-align: center;
-}
-
-.texto-inicio-2 h2 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-.texto-inicio-2 p {
-    position: relative;
-    left: 30%;
-    width: 500px;
-    height: 200px;
-    line-height: 30px;
-    font-style: italic;
-}
-
 .background-colorido {
     width: 100%;
     height: 3rem;
     background-color: #F0A500;
 }
 
+
+/*Galeria de fotos com efeito hover*/
+
 .titulo-galeria {
     text-align: center;
-    margin-top: 2rem;
+    background-color: #1B1A17;
+    height: 100px;
+    color: white;
 }
 
 .titulo-galeria h1 {
@@ -119,6 +102,7 @@
     flex-wrap: wrap;
     width: 100%;
     height: 120vh;
+    background-color: #F0A500;
 }
 
 .galeria-de-fotos img {
@@ -126,7 +110,7 @@
     height: 300px;
     background-size: cover;
     margin-left: 4rem;
-    box-shadow: 0 0 20px 0 rgb(202, 202, 202);
+    box-shadow: 0 0 20px 5px rgb(202, 202, 202);
     cursor: pointer;
     transition: 0.5s;
 }
@@ -135,10 +119,15 @@
    transform: scale(1.1);
 }
 
+
+/*Seção Blog com últimas postagens*/
+
 .blog {
     text-align: center;
-    margin-top: 2rem;
     margin-bottom: 5rem;
+    background-color: #1B1A17;
+    color: white;
+    height: 100px;
 }
 
 .blog h1 {
@@ -176,9 +165,12 @@
     height: 1px;
     background-color: rgb(202, 202, 202);
     position: relative;
-    left: 35%;
+    left: 62%;
     bottom: 3.5rem;
 }
+
+
+/*Seção link para video*/
 
 .section-video-youtube {
     display: flex;
@@ -201,6 +193,9 @@
     line-height: 25px;
     color: white;
 }
+
+
+/*Slider (4 fotos) com animation*/
 
 .section-slider {
     width: 100%;
@@ -241,6 +236,68 @@
 }
 
 
+/*Cards*/
+
 .cards {
-    margin-top: 40rem;
+    margin-top: 50rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40vh;
+    gap: 30px;
+    margin-bottom: 10rem;
+}
+
+.section-cards {
+    background-color: #F0A500;
+    box-shadow: 0 0 20px 5px rgb(202, 202, 202);
+}
+
+.section-cards img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 35%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.section-cards p {
+    text-align: center;
+    width: 190px;
+    height: 150px;
+    line-height: 25px;
+    color: white;
+}
+
+
+/*Footer - Redes sociais*/
+
+.footer {
+    background-color: #1B1A17;
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+
+.section-social-media {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    gap: 15px;
+    margin-right: 10px;
+    position: relative;
+    top: 40px;
+}
+
+.section-social-media img {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.direito-autoral {
+    position: relative;
+    top: 20px;
+    font-size: 14px;
 }
